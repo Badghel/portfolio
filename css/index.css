@@ -14,7 +14,8 @@
     font-size: 60px;
     text-align: center;
     width: 50%;
-    margin-left: 30px;
+    margin-left: 220px;
+    margin-top: 10px;
 }
 .izquierda{
     background: url(../img/background4.jpg);
@@ -30,33 +31,37 @@
 }
 .luciano{
     color: #063852;
-    margin-left: 45px;
+    margin-left: 20px;
 }
 p{
-    font-size: 19px;
+    
+    font-size: 25px;
     line-height: 30px;
     width: 80%;
     margin: auto;
+    margin-top: 50px;
+    text-align: justify;
     
 }
 h3{
-    font-size: 20px;
+    font-size: 30px;
     text-align: center;
-    color: #fa6775;
+    color: #b28dff;
     font-weight: bold;
-
+    margin-top: 25px;
    
 }
 a{
     text-decoration: none;
     padding: 20px;
     color: #ffff;
-    border: 3px solid #ffff;
+    border: 3px solid rgb(27, 27, 27);
     border-radius: 30px;
     font-weight: bold;
     display: inline-block;
-    margin-top: 30px;
-    transition: all 1s;
+    margin-top: 50px;
+    width: 50%;
+    text-transform: uppercase;
     
 }
 .link{
@@ -68,6 +73,7 @@ footer{
     color: #fefefe;
     text-align: center;
     font-weight: 100;
+    margin-top: 315px;
 
 }
 @media screen and (max-width:800px) and (max-height: 900px){
@@ -98,7 +104,4 @@ footer{
     
     }
 }
-
-
-
 

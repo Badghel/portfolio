@@ -108,6 +108,118 @@ footer{
         margin-top: 10px;
     }
 }
-
-
-
+@media screen and (max-width:500px) and (max-height:640px){
+  .derecha h1{
+      font-size: 50px;
+      margin-left: 40px;
+      margin-top: 10px;
+  }
+  .derecha h3{
+        font-size: 20px;
+  }
+  .luciano{
+      margin-left: 30px;
+  }
+  p{
+      margin-top: -30px;
+    font-size: 13px;
+  }
+  a{
+      width: 300px;
+  }
+  footer{
+      margin-top: 20px;
+  }
+}
+@media screen and (max-width:400px) and (max-height:700px){
+    .derecha h1{
+        font-size: 40px;
+        margin-left: 70px;
+        margin-top: 6px;
+    }
+    .luciano{
+        margin-left: 25px;
+    }
+    .derecha h3{
+        font-size: 20px;
+    }
+    p{
+        margin-top: -20px;
+    }
+    footer{
+        margin-top: 38px;
+    }
+    a{
+        width: 300px;
+    }
+}
+@media screen and (max-width:450px) and (max-height:850px){
+    .derecha h1{
+        font-size: 50px;
+        margin-left: 60px;
+    }
+    .luciano{
+        margin-left: 30px;
+    }
+    .derecha h3{
+        font-size: 20px;
+        margin-top: 5px;
+    }
+    p{
+        margin-top: 10px;
+      font-size: 16px;  
+    }
+    footer{
+        margin-top: 139px;
+    }
+    a{
+        width: 300px;
+    }
+}
+@media screen and (max-width:320px) and (max-height:570px){
+    #pantalla-dividida{
+        overflow: scroll;
+    }
+    .derecha{
+        height: 129vh;
+    }
+    .derecha h1{
+        font-size: 40px;
+        margin-left: 45px;
+    }
+    .derecha h3{
+        font-size: 17px;
+    }
+    p{
+        font-size: 12px;
+        margin-top: -30px;
+    }
+}
+@media screen and (max-width:380px) and (max-height:680px){
+    #pantalla-dividida{
+        overflow: scroll;
+    }
+    .derecha{
+        height: 129vh;
+    }
+    .derecha h1{
+        font-size: 40px;
+        margin-left: 70px;
+    }
+    .luciano{
+        margin-left: 30px;
+    }
+    .derecha h3{
+        font-size: 17px;
+    }
+    p{
+        font-size: 12px;
+        margin-top: 0px;
+    }
+    a{
+        margin-top: 20px;
+    }
+    footer{
+        margin-top: 300px;
+    }
+}
